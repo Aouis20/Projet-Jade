@@ -4,17 +4,18 @@
     font-family: "Roboto",sans-serif;
     font-weight: normal;
 }
-
+/* Image */
 .image{
     height: 150px;
     width: 150px;
 }
-
+/* Boutton remove */
 .remove{
     height: 15px;
     width: auto;
     cursor: pointer;
 }
+/* Panier */
 .articles li{
     list-style: none;
 }
@@ -30,46 +31,60 @@
     margin-bottom: 50px;
     width: 90%;
     margin-left: 0;
-}
-#total{
-    display: grid;
-    grid-template-columns: 350px;
+    float:left;
+    width:80%;
 }
 
+/* Total */
 #total h4 {
     font-weight: normal;
 }
 #total {
-    margin: 0;
+    margin-left:85%;
 }
 #total div {
     margin-left: 0;
     width: 350px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 
 }
-#page1 button{
-    width:350px;
-}
 
+/* Panier / Total */
 #panier h1,
 #total h1,
 #total h3 {
     font-weight: bold;
 }
-
-#montant {
-    background-color: #cddbc6;
+#montant{
+    float:left;
+    width:60%;
 }
-
+#montant span,
+.total {
+    margin-left:69%;
+}
+#montant h4 {
+    font-size: 22px;
+    margin-top: 45px;
+}
+#montant span{
+    font-size: 22px;
+}
+#prix_total{
+    font-size: 22px;
+}
+/* Boutton valider commande */
 .next {
     background-color: #67795e;
     color: white;
     border: none;
-    height: 35px;
+    height: 55px;
     cursor: pointer;
+    width:350px;
+    margin-left:85%;
 }
 
+/* Btn retour */
 .continue {
     background-color: #cddbc6;
     border: none;
@@ -80,4 +95,22 @@
     color: #67795e;
     text-decoration: none;
 
+}
+
+
+/*Formulaire */
+.prev,
+.next2 {
+    height: 55px;
+    cursor: pointer;
+    width:217px;
+}
+.prev{
+    background-color: white;
+    border: solid 1px #67795e;
+    color: #67795e;
+}
+.next2 {
+    background-color: #67795e;
+    color: white;
 }
