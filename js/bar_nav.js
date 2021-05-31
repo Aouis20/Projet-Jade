@@ -25,10 +25,6 @@ const navSlide = () => {
 
 }
 
-function truc() {
-    console.log("eidgh")
-}
-
 // Catégorie 1 et 2
 const openMenu1 = () => {   
     document.getElementById("dropdown_menu").addEventListener("click", openMenu1)

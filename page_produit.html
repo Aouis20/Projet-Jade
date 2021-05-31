@@ -6,20 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JADE</title>
     <!-- A redéfinir -->
-    <link rel="icon" type="image/png" sizes="16x16" href="https://www.1formatik.com/images/favicon/favicon-16x16.png">
+    <link rel="icon" href="img/logo_vert.svg">
     <link rel="stylesheet" href="./css/page_produit.css">
     <link rel="stylesheet" href="./css/bar_nav.css">
+    <link rel="stylesheet" href="./css/footer.css">
+
 </head>
 <body>
     <header>
         <nav>
             <div id="logo">
-                <a href="homepage.html">
-                    <img src="img/logo_blanc.svg" alt="logo">
-                </a>
+                <a href="homepage.html"><img src="img/logo_blanc.svg" alt="logo"></a>
             </div> 
             <div id="wrapper">
-    
               <ul id="list_cat">
                   <li id="dropdown_menu">
                     <div id="category_container">
@@ -30,10 +29,10 @@
                     </div>
                     <ul id="list">
                         <li><a href="page_produit.html">Peau normale</a></li>
-                        <li><a href="#">Peau sèche</a></li>
-                        <li><a href="#">Peau mixe</a></li>
-                        <li><a href="#">Peau grasse</a></li>
-                        <li><a href="#">Peau mature</a></li>
+                        <li><a href="page_produit.html">Peau sèche</a></li>
+                        <li><a href="page_produit.html">Peau mixe</a></li>
+                        <li><a href="page_produit.html">Peau grasse</a></li>
+                        <li><a href="page_produit.html">Peau mature</a></li>
                     </ul>  
                   </li> 
               </ul>
@@ -55,7 +54,7 @@
                                 </div>
                             </div>
                             <ul id="list_hidden">
-                                <li><a href="page_produit.html">Peau normale</a></li>
+                                <li><a href="index.html">Peau normale</a></li>
                                 <li><a href="#">Peau sèche</a></li>
                                 <li><a href="#">Peau mixe</a></li>
                                 <li><a href="#">Peau grasse</a></li>
@@ -102,6 +101,7 @@
                     <div onclick="Panier()">
                         <a href="./panier.html">
                             <img src="img/shopping-bag.svg" alt="Panier" class="icon">
+                            <div class="allarticle">0</div>
                         </a>
                     </div>
                     <div id="compte-container" class="modal">
@@ -228,6 +228,22 @@
         <script src="js/page_produit_1.js"></script>
         <script src="js/page_produit_2.js"></script>
     </main>
-    <footer>Ici le footer</footer>
+    <footer>
+        <!-- Adresse -->
+        <section> 
+            <img src="img/logo_blanc.svg"> 
+        </section>
+        <!-- Réseaux sociaux -->
+        <section>
+            <a href="https://fr-fr.facebook.com/" title="Lien vers la page Facebook de Jade"><img src="img/facebook.svg" alt="Facebook Jade"></a>
+            <a href="https://www.instagram.com/?hl=fr" title="Lien vers le profil Instagram de Jadeç"><img src="img/instagram.svg" alt="Instagram Jade"></a>
+            <a href="https://twitter.com/" title="Lien vers la page Linkedin de Jade"><img src="img/twitter.svg" alt="Linkedin Jade"></a>
+        </section>
+        <!-- Mentions -->
+        <section id="mentions">
+            <span>Copyright 2021 Jade-Beauty </span>
+            <a href="https://">Mentions légales</a>
+        </section>
+    </footer>
 </body>
 </html>

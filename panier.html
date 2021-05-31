@@ -8,12 +8,15 @@
     <link rel="stylesheet" href="css/bar_nav.css">
     <link rel="stylesheet" href="css/formulaire_panier.css">
     <link rel="stylesheet" href="css/panier.css">
+    <link rel="stylesheet" href="css/footer.css">
     <title>Jade - Panier</title>
 </head>
 <body>
     <nav>
         <div id="logo">
-            <img src="img/logo_blanc.svg" alt="logo">
+            <a href="homepage.html">
+                <img src="img/logo_blanc.svg" alt="logo">
+            </a>
         </div> 
         <div id="wrapper">
 
@@ -89,17 +92,18 @@
                 <div id="panier">
                     <h1>Panier</h1>
                     <section class="articles"></section>
-                </div>
+                </div>  
                 <div id="total">
                     <h1>Total</h1>
+                    <button class="next" type="button">Valider le panier</button>
                     <div id="montant">
                         <div id="sous_total">
                             <h4>Sous-total:</h4>
                             <span class="s_total">95</span> €
                         </div>
-                        <id id="livraison">
+                        <div id="livraison">
                             <h4>Livraison:</h4>
-                            <span class="livraison">5</span> €</id>
+                            <span class="livraison">5</span> €
                         </div>
                         <div id="prix_total">
                             <h3>Total:</h3>
@@ -107,7 +111,6 @@
                         </div>
                     </div>
                 </div>
-                <button class="next" type="button">Valider le panier</button>
             </div>   
             <div class="page" id="page2">
                 <h1>Informations</h1>
@@ -154,7 +157,7 @@
     </main>
     <script src="js/bar_nav.js"></script> 
     <script src="js/panier_formulaire.js"></script>   
-    <script src="js/test.js"></script>
+    <script src="js/panier.js"></script>
 </body>
 </html>
 

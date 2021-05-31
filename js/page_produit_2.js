@@ -1,4 +1,5 @@
 var bag = []
+let allarticle = 0
 function append(id) {
     if (mydatas[id]["quantity"] > 0) {
         bag.push(mydatas[id])
@@ -15,6 +16,8 @@ function append(id) {
     bag.sort(function (a, b) {
         return a.id - b.id  //Tri en fonction du product id
     })
+    allarticle++
+    document.querySelector(".allarticle").innerHTML = allarticle
     console.log(bag)
 }
 

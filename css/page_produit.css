@@ -44,6 +44,14 @@ h1 {
     cursor: pointer;
   }
 
+/* TOP */
+/* si video */
+/* video {
+    display: block;
+    margin: 75px 0 50px 50vw;
+    transform: translate(-50%);
+} */
+
 /* PAGE PRODUCT */
 
 main {
@@ -76,6 +84,7 @@ main {
     grid-gap: 50px 10px;
     justify-items: center;
     margin: 150px 20px 0 20px;
+    margin-bottom: 230px;
 }
 
 .product {
@@ -133,6 +142,24 @@ h2 {
 .p-button:hover {
     background-color: #67795e;
 }
+
+#number {
+    position: relative;
+}
+
+#numberimg {
+    position: absolute;
+    top: 0;
+}
+
+.allarticle {
+    position: absolute;
+    margin-top: -23px;
+    margin-left: 11px;
+    color: white;
+    text-decoration: none;
+}
+
 
 @media screen and (min-width: 900px) {
     #products {

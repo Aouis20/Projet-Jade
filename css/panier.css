@@ -80,8 +80,8 @@
     border: none;
     height: 55px;
     cursor: pointer;
-    width:350px;
-    margin-left:85%;
+    width: 350px;
+    margin-left: 0;
 }
 
 /* Btn retour */
@@ -94,7 +94,6 @@
 .continue a{
     color: #67795e;
     text-decoration: none;
-
 }
 
 
